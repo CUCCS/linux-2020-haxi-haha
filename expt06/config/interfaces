@@ -1,0 +1,14 @@
+# ifupdown has been replaced by netplan(5) on this system.  See
+# /etc/netplan for current configuration.
+# To re-enable ifupdown on this system, you can run:
+#    sudo apt install ifupdown
+#
+
+
+
+
+auto enp0s9
+iface enp0s9 inet static
+address 192.168.254.25
+netmask 255.255.255.0
+gateway 192.168.254.25
